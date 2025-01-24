@@ -35,8 +35,11 @@ public class Stringsconcepts {
 			System.out.println(eachchar);
 		}
 		System.out.println(name.replace("Z", "A"));
+		
+		System.out.println(name);
 	}
 
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Stringsconcepts s = new Stringsconcepts();

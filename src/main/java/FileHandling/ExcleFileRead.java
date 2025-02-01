@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.ss.usermodel.Row;
@@ -13,16 +14,18 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcleFileRead {
 	
-	String filepath = "C:\\Users\\DELL\\eclipse-workspace\\BesantTambaramSep2024\\Input\\Testdata.xlsx";
+	String filepath = "C:\\Users\\DELL\\eclipse-workspace\\BesantTambaramSep2024\\Input\\Testdata.xls";
 	public void readData() throws IOException
 	{
 		File F = new File(filepath);
 		FileInputStream FI = new FileInputStream(F);
 		
-		XSSFWorkbook workbook = new XSSFWorkbook(FI);
+		//XSSFWorkbook workbook = new XSSFWorkbook(FI);
+		
+		HSSFWorkbook workbook = new HSSFWorkbook(FI);
 		Sheet sheet = workbook.getSheet("input");
 		int usedRow = sheet.getPhysicalNumberOfRows();
-		System.out.println("user Rpws : "+usedRow);
+		System.out.println("user Rows : "+usedRow);
 		
 		Row eachRow = sheet.getRow(0);
 		int usedColumn = eachRow.getLastCellNum();
@@ -36,7 +39,9 @@ public class ExcleFileRead {
 		File F = new File(filepath);
 		FileInputStream FI = new FileInputStream(F);
 		
-		XSSFWorkbook workbook = new XSSFWorkbook(FI);
+		//XSSFWorkbook workbook = new XSSFWorkbook(FI);
+
+		HSSFWorkbook workbook = new HSSFWorkbook(FI);
 		Sheet sheet = workbook.getSheet("input");
 		int usedRow = sheet.getPhysicalNumberOfRows();
 		System.out.println("user Rpws : "+usedRow);

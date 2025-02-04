@@ -14,16 +14,16 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcleFileRead {
 	
-	String filepath = "C:\\Users\\DELL\\eclipse-workspace\\BesantTambaramSep2024\\Input\\Testdata.xls";
+	String filepath = "C:\\Users\\DELL\\eclipse-workspace\\BesantTambaramSep2024\\Input\\Testdata.xlsx";
 	public void readData() throws IOException
 	{
 		File F = new File(filepath);
 		FileInputStream FI = new FileInputStream(F);
 		
-		//XSSFWorkbook workbook = new XSSFWorkbook(FI);
+		XSSFWorkbook workbook = new XSSFWorkbook(FI);
 		
-		HSSFWorkbook workbook = new HSSFWorkbook(FI);
-		Sheet sheet = workbook.getSheet("input");
+		//HSSFWorkbook workbook = new HSSFWorkbook(FI);
+		Sheet sheet = workbook.getSheet("invalidinput");
 		int usedRow = sheet.getPhysicalNumberOfRows();
 		System.out.println("user Rows : "+usedRow);
 		
@@ -39,10 +39,10 @@ public class ExcleFileRead {
 		File F = new File(filepath);
 		FileInputStream FI = new FileInputStream(F);
 		
-		//XSSFWorkbook workbook = new XSSFWorkbook(FI);
+		XSSFWorkbook workbook = new XSSFWorkbook(FI);
 
-		HSSFWorkbook workbook = new HSSFWorkbook(FI);
-		Sheet sheet = workbook.getSheet("input");
+		//HSSFWorkbook workbook = new HSSFWorkbook(FI);
+		Sheet sheet = workbook.getSheet("invalidinput");
 		int usedRow = sheet.getPhysicalNumberOfRows();
 		System.out.println("user Rpws : "+usedRow);
 		for(int i=0;i<usedRow;i++)
@@ -51,12 +51,12 @@ public class ExcleFileRead {
 		int usedColumn = eachRow.getLastCellNum();
 		System.out.println("user columns : "+usedColumn);
 		
-		for(int j=0;j<usedColumn;j++)
-		{
-		Cell eachcell = eachRow.getCell(j);
-		//System.out.println(eachcell.getStringCellValue());
-		System.out.println(GetCellValue(eachcell));
-		}
+			for(int j=0;j<usedColumn;j++)
+			{
+			Cell eachcell = eachRow.getCell(j);
+			//System.out.println(eachcell.getStringCellValue());
+			System.out.print(GetCellValue(eachcell));
+			}
 		}
 		
  	}

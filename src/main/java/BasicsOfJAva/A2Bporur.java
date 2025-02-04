@@ -6,6 +6,7 @@ public class A2Bporur extends A2BRates {
 		// TODO Auto-generated method stub
 		A2Bporur a = new A2Bporur();
 		a.calc(1000);
+		System.out.println("5"+5);
 	}
 
 }

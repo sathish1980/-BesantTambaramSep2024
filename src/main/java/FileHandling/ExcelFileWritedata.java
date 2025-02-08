@@ -23,11 +23,11 @@ public class ExcelFileWritedata {
 		XSSFWorkbook workbook = new XSSFWorkbook();
 		Sheet sheet = workbook.createSheet("courseDetails");
 		
-		Row row = sheet.createRow(0);
+		
 		for (int i=0;i<courses.length;i++)
 		{
-			
-			Cell cell1 = row.createCell(i);
+			Row row = sheet.createRow(i);
+			Cell cell1 = row.createCell(0);
 			cell1.setCellValue(courses[i]);
 			System.out.println(courses[i]);
 		}

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="BasicsOfSelenium.FirstClass">
+      <class name="BasicsOfSelenium.Checkbox">
         <methods>
           <include name="login"/>
         </methods>
-      </class> <!-- BasicsOfSelenium.FirstClass -->
+      </class> <!-- BasicsOfSelenium.Checkbox -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

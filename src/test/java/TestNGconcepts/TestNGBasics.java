@@ -17,13 +17,13 @@ public class TestNGBasics {
 	 * @AfterSuite
 	 */
 	
-	@Test
+	@Test(priority=1,timeOut=60,dependsOnMethods={"Testcase2",})
 	public void Testcase()
 	{
 		System.out.println("Testcase1");
 	}
 	
-	@Test
+	@Test(priority=0,invocationCount=10,invocationTimeOut=60)
 	public void Testcase2()
 	{
 		System.out.println("Testcase2");

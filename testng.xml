@@ -3,14 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="TestNGconcepts.TestNGBasics"/>
-      <class name="TestNGconcepts.TestNGBasics2"/>
-    </classes>
-  </test> <!-- Test -->
-  <test thread-count="5" name="Test2">
-    <classes>
-      <class name="TestNGconcepts.TestNGBasics"/>
-      <class name="TestNGconcepts.TestNGBasics2"/>
+      <class name="TestCase.MakeMyTripFlightSearchTestcase"/>
+      <class name="TestCase.MakeMyTripHoteltSearchTestcase"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

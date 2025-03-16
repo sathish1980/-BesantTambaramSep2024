@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="BasicsOfSelenium.VerificationandValidation">
+      <class name="TestCase.MakeMyTripFlightSearchTestcase">
         <methods>
-          <include name="login"/>
+          <include name="closethebrowser"/>
+          <include name="EnterUrl"/>
+          <include name="ValidateFigltSearchwithValidvalues"/>
+          <include name="ClearPopups"/>
+          <include name="Launch"/>
         </methods>
-      </class> <!-- BasicsOfSelenium.VerificationandValidation -->
+      </class> <!-- TestCase.MakeMyTripFlightSearchTestcase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

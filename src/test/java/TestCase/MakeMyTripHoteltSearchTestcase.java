@@ -12,6 +12,7 @@ import Commons.Elements;
 import Pages.HotelSearchPage;
 import Pages.SearchPage;
 import Pages.SearchResultPage;
+import Utils.ExcelfileRead;
 import Utils.PropertyFileRead;
 
 public class MakeMyTripHoteltSearchTestcase extends BrowserLaunch {
@@ -54,8 +55,8 @@ public void ValidateHotelSearchwithValidvalues() throws InterruptedException
 	Elements.ClickBackButton(driver);
 }
 
-//@Test(priority=1)
-public void ValidateFigltSearchwithinValidvalues() throws InterruptedException
+@Test(priority=1,dataProvider="GetHotelSearchData",dataProviderClass=DataProviderDetails.class)
+public void ValidateFigltSearchwithinValidvalues(String location) throws InterruptedException
 {
 	/*
 	 * Select from location
@@ -71,5 +72,7 @@ public void ValidateFigltSearchwithinValidvalues() throws InterruptedException
 	String actualResult = sp.GetSameCityError();
 	Assert.assertEquals(actualResult, expectedResult);
 }
+
+
 
 }

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-22T12:20:22 IST" name="Suite" finished-at="2025-03-22T12:20:57 IST" duration-ms="35333">
+    <groups>
+    </groups>
+    <test started-at="2025-03-22T12:20:22 IST" name="Test" finished-at="2025-03-22T12:20:57 IST" duration-ms="35333">
+      <class name="TestCase.MakeMyTripFlightSearchTestcase">
+        <test-method is-config="true" signature="Launch()[pri:0, instance:TestCase.MakeMyTripFlightSearchTestcase@4466af20]" started-at="2025-03-22T12:20:20 IST" name="Launch" finished-at="2025-03-22T12:20:22 IST" duration-ms="1909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method is-config="true" signature="EnterUrl()[pri:0, instance:TestCase.MakeMyTripFlightSearchTestcase@4466af20]" started-at="2025-03-22T12:20:22 IST" name="EnterUrl" finished-at="2025-03-22T12:20:24 IST" duration-ms="2306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterUrl -->
+        <test-method is-config="true" signature="ClearPopups()[pri:0, instance:TestCase.MakeMyTripFlightSearchTestcase@4466af20]" started-at="2025-03-22T12:20:24 IST" name="ClearPopups" finished-at="2025-03-22T12:20:27 IST" duration-ms="3236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClearPopups -->
+        <test-method signature="ValidateFigltSearchwithValidvalues(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.MakeMyTripFlightSearchTestcase@4466af20]" started-at="2025-03-22T12:20:28 IST" name="ValidateFigltSearchwithValidvalues" data-provider="GetFlightSearchData" finished-at="2025-03-22T12:20:38 IST" duration-ms="10281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MAA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BLR]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sat]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateFigltSearchwithValidvalues -->
+        <test-method is-config="true" signature="WriteInReport(org.testng.ITestResult)[pri:0, instance:TestCase.MakeMyTripFlightSearchTestcase@4466af20]" started-at="2025-03-22T12:20:38 IST" name="WriteInReport" finished-at="2025-03-22T12:20:39 IST" duration-ms="459" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidateFigltSearchwithValidvalues status=SUCCESS method=MakeMyTripFlightSearchTestcase.ValidateFigltSearchwithValidvalues(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.MakeMyTripFlightSearchTestcase@4466af20] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WriteInReport -->
+        <test-method signature="ValidateFigltSearchwithValidvalues(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.MakeMyTripFlightSearchTestcase@4466af20]" started-at="2025-03-22T12:20:39 IST" name="ValidateFigltSearchwithValidvalues" data-provider="GetFlightSearchData" finished-at="2025-03-22T12:20:49 IST" duration-ms="9686" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BLR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PNQ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[27]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[fit]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateFigltSearchwithValidvalues -->
+        <test-method is-config="true" signature="WriteInReport(org.testng.ITestResult)[pri:0, instance:TestCase.MakeMyTripFlightSearchTestcase@4466af20]" started-at="2025-03-22T12:20:49 IST" name="WriteInReport" finished-at="2025-03-22T12:20:49 IST" duration-ms="328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidateFigltSearchwithValidvalues status=SUCCESS method=MakeMyTripFlightSearchTestcase.ValidateFigltSearchwithValidvalues(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.MakeMyTripFlightSearchTestcase@4466af20] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WriteInReport -->
+        <test-method signature="ValidateFigltSearchwithinValidvalues(java.lang.String,java.lang.String)[pri:1, instance:TestCase.MakeMyTripFlightSearchTestcase@4466af20]" started-at="2025-03-22T12:20:49 IST" name="ValidateFigltSearchwithinValidvalues" data-provider="GetFlightInvalidSearchData" finished-at="2025-03-22T12:20:50 IST" duration-ms="1240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MAA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MAA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateFigltSearchwithinValidvalues -->
+        <test-method is-config="true" signature="WriteInReport(org.testng.ITestResult)[pri:0, instance:TestCase.MakeMyTripFlightSearchTestcase@4466af20]" started-at="2025-03-22T12:20:50 IST" name="WriteInReport" finished-at="2025-03-22T12:20:51 IST" duration-ms="394" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidateFigltSearchwithinValidvalues status=SUCCESS method=MakeMyTripFlightSearchTestcase.ValidateFigltSearchwithinValidvalues(java.lang.String,java.lang.String)[pri:1, instance:TestCase.MakeMyTripFlightSearchTestcase@4466af20] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WriteInReport -->
+        <test-method signature="ValidateFigltSearchwithinValidvalues(java.lang.String,java.lang.String)[pri:1, instance:TestCase.MakeMyTripFlightSearchTestcase@4466af20]" started-at="2025-03-22T12:20:51 IST" name="ValidateFigltSearchwithinValidvalues" data-provider="GetFlightInvalidSearchData" finished-at="2025-03-22T12:20:51 IST" duration-ms="730" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PNQ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PNQ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateFigltSearchwithinValidvalues -->
+        <test-method is-config="true" signature="WriteInReport(org.testng.ITestResult)[pri:0, instance:TestCase.MakeMyTripFlightSearchTestcase@4466af20]" started-at="2025-03-22T12:20:51 IST" name="WriteInReport" finished-at="2025-03-22T12:20:52 IST" duration-ms="266" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidateFigltSearchwithinValidvalues status=SUCCESS method=MakeMyTripFlightSearchTestcase.ValidateFigltSearchwithinValidvalues(java.lang.String,java.lang.String)[pri:1, instance:TestCase.MakeMyTripFlightSearchTestcase@4466af20] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WriteInReport -->
+        <test-method signature="ValidateFigltSearchwithinValidvalues(java.lang.String,java.lang.String)[pri:1, instance:TestCase.MakeMyTripFlightSearchTestcase@4466af20]" started-at="2025-03-22T12:20:52 IST" name="ValidateFigltSearchwithinValidvalues" data-provider="GetFlightInvalidSearchData" finished-at="2025-03-22T12:20:52 IST" duration-ms="476" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BLR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BLR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateFigltSearchwithinValidvalues -->
+        <test-method is-config="true" signature="WriteInReport(org.testng.ITestResult)[pri:0, instance:TestCase.MakeMyTripFlightSearchTestcase@4466af20]" started-at="2025-03-22T12:20:52 IST" name="WriteInReport" finished-at="2025-03-22T12:20:52 IST" duration-ms="375" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidateFigltSearchwithinValidvalues status=SUCCESS method=MakeMyTripFlightSearchTestcase.ValidateFigltSearchwithinValidvalues(java.lang.String,java.lang.String)[pri:1, instance:TestCase.MakeMyTripFlightSearchTestcase@4466af20] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WriteInReport -->
+        <test-method is-config="true" signature="closethebrowser()[pri:0, instance:TestCase.MakeMyTripFlightSearchTestcase@4466af20]" started-at="2025-03-22T12:20:57 IST" name="closethebrowser" finished-at="2025-03-22T12:20:59 IST" duration-ms="1672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closethebrowser -->
+      </class> <!-- TestCase.MakeMyTripFlightSearchTestcase -->
+      <class name="TestCase.MakeMyTripHoteltSearchTestcase">
+        <test-method is-config="true" signature="CickHotels()[pri:0, instance:TestCase.MakeMyTripHoteltSearchTestcase@4cc451f2]" started-at="2025-03-22T12:20:52 IST" name="CickHotels" finished-at="2025-03-22T12:20:56 IST" duration-ms="3179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CickHotels -->
+        <test-method signature="ValidateHotelSearchwithValidvalues()[pri:0, instance:TestCase.MakeMyTripHoteltSearchTestcase@4cc451f2]" started-at="2025-03-22T12:20:56 IST" name="ValidateHotelSearchwithValidvalues" finished-at="2025-03-22T12:20:56 IST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateHotelSearchwithValidvalues -->
+        <test-method signature="ValidateFigltSearchwithinValidvalues(java.lang.String)[pri:1, instance:TestCase.MakeMyTripHoteltSearchTestcase@4cc451f2]" started-at="2025-03-22T12:20:56 IST" name="ValidateFigltSearchwithinValidvalues" data-provider="GetHotelSearchData" finished-at="2025-03-22T12:20:56 IST" duration-ms="866" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateFigltSearchwithinValidvalues -->
+        <test-method signature="ValidateFigltSearchwithinValidvalues(java.lang.String)[pri:1, instance:TestCase.MakeMyTripHoteltSearchTestcase@4cc451f2]" started-at="2025-03-22T12:20:56 IST" name="ValidateFigltSearchwithinValidvalues" data-provider="GetHotelSearchData" finished-at="2025-03-22T12:20:57 IST" duration-ms="600" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateFigltSearchwithinValidvalues -->
+      </class> <!-- TestCase.MakeMyTripHoteltSearchTestcase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
